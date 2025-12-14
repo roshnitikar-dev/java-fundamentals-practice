@@ -1,0 +1,17 @@
+class OddorEven {
+String findType(int a) {
+	if(a%2==0) {
+		return "Even";
+	} else {
+		return "Odd";
+	}
+}
+}
+
+class TestNumber {
+public static void main(String[] args) {
+	OddorEven f1= new OddorEven();
+	String res= f1.findType(6);
+	System.out.println("Number is "+res);
+}
+}
